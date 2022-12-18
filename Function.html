@@ -124,7 +124,7 @@
 // alert(checkAge(age))
 // ------------------------------------  
 
-// Задача №2
+// Задача №2 - переделать функцию с ? и ||
 // function checkAge(age) {
 //   if (age > 18) {
 //     return true;
@@ -132,3 +132,16 @@
 //     return confirm('Родители разрешили?');
 //   }
 // }
+
+// Мой вариант с ?
+// let age = 19
+// function checkAge(age) {
+//     (age>18)
+//     ?age = true
+//     :age = confirm('Родители разрешили?');
+//     return age }
+// alert(checkAge(age))
+  
+  // Правильный вариант с ?
+// function checkAge(age) {
+//   return (age > 18) ? true : confirm('Родители разрешили?'); }
